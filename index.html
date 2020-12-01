@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,12 +21,12 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon"><i class="fas fa-glass-whiskey fa-2x"></i></span>
+							<span class="icon"><i class="las la-glass-whiskey la-3x" id="whiskeyIcon"></i></span>
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Rock Bottom Whiskey Bar</h1>
-								<p>A bar for a discernign taste<br />
+								<p>A bar for a discerning taste <br>
 								within a hidden tongue.</p>
 							</div>
 						</div>
@@ -34,7 +35,8 @@
 								<li><a href="#intro">The Bar</a></li>
 								<li><a href="#work">The Drinks</a></li>
 								<li><a href="#about">The Food</a></li>
-								<li><a href="#contact">The Talk</a></li>
+								<li><a href="#flight">The Flights</a></li>
+								<!-- <li><a href="#elements">The Talk</a></li> -->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -47,8 +49,12 @@
 							<article id="intro">
 								<h2 class="major">The Bar</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+								<blockquote id="twain-quote">“Too much of anything is bad, but too much good whiskey is barely enough.” <br> <span id="twain"><i>– Mark Twain</i></span></blockquote>
+								<p>An intimate and vibrant lounge where our guests come together and create an experience of their own. With bespoke signature cocktails and delicious food, it’s the perfect space to socialise well into the evening. .</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<ul class="one-actions">
+									<li><a href="#work" class="button small" id="btn-drinks">The Drinks</a></li>
+								</ul>
 							</article>
 
 						<!-- Work -->
@@ -57,6 +63,10 @@
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<ul class="dbl-actions">
+									<li><a href="#intro" class="button small" id="btn-drinks">The Bar</a></li>
+									<li><a href="#about" class="button small" id="btn-drinks">The Food</a></li>
+								</ul>
 							</article>
 
 						<!-- About -->
@@ -64,7 +74,24 @@
 								<h2 class="major">The Food</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<ul class="dbl-actions">
+									<li><a href="#work" class="button small" id="btn-drinks">The Drinks</a></li>
+									<li><a href="#flight" class="button small" id="btn-drinks">The Flights</a></li>
+								</ul>
 							</article>
+
+
+							<article id="flight">
+								<h2 class="major">The Flights</h2>
+								<span class="image main"><img src="images/IMG_0782.PNG" alt="" /></span>
+								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<ul class="dbl-actions">
+									<li><a href="#about" class="button small" id="btn-drinks">The Food</a></li>
+									<li><a href="https://www.instagram.com/rockbottomwhiskey/" target="_blank" class="button small" id="btn-drinks">The Story</a></li>
+									<li><a href="http://maps.google.com/?q=rock bottom whiskey bar Hammonton, New Jersey" target="_blank" class="button small" id="btn-drinks">Get Here</a></li>
+								</ul>
+							</article>
+
 
 						<!-- Contact -->
 							<article id="contact">
@@ -343,7 +370,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">Address: 21 N 3rd St, Hammonton, NJ 08037</p>
+						<ul class="icons">
+							<li><a href="https://www.instagram.com/rockbottomwhiskey/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+						<p>21 N 3rd St <br>
+							Hammonton,  New Jersey</p>
+							<ul class="mid-actions">
+								<li><a href="http://maps.google.com/?q=rock bottom whiskey bar Hammonton, New Jersey" target="_blank" class="button small" id="get-here">Get Here</a></li>
+							</ul>
 					</footer>
 
 			</div>
