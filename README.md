@@ -1,7 +1,7 @@
 # Rock Bottom Whiskey Bar
- I used a HTML5UP template to create a website for a friend's bar in New Jersey.
+ I created a website for a friend's bar in New Jersey.
  
- https://boring-blackwell-4a4ba0.netlify.app/
+[Rock Bottom Whiskey Bar](https://rockbottomwhiskey.netlify.app/)
  
  ----------------------------------
  
@@ -28,3 +28,7 @@ Added "The Flights" to showcase an important element of the bar. I used a jpeg i
 Fixed the address display on the home screen. As well as added a link to the Instagram page, and below that a "Get Here" button which opens directly to Google Maps location of the bar. 
 
 The biggest issue I'm having is the content itself. The photos Greg provided me are very high quality, but all of them are vertical, leading to difficulties in cropping the image appropariately. The original images of the template used a 3:1 ratio, while Greg's images are all 2:3. I had to make compromises by simply using a 16:9 crop for the images. 
+
+-------------------------------------
+7/26/2021
+Amazing how far time has flown by! Finally coming back to this project and finishing out the copy of the website and overall content. Hopefully have it fully polished in the next week.
